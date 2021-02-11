@@ -109,18 +109,24 @@ h1 {
     word-spacing: 30px;
     letter-spacing: 8px;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: capitalize;
 
 }
 .home {
     text-decoration-line: none;
     color: black;
+    line-height: 40px;
+    font-size: 25px;
     
 }
 .cataloge {
     text-decoration-line: none;
     color: black;
+    font-size: 25px;
+
 }
 .news {
     text-decoration-line: none;
     color: black;
+    font-size: 25px;
 }
