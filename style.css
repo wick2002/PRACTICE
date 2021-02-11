@@ -100,30 +100,30 @@ hr {
 input, select {
     vertical-align:middle;
 }
-h1 {
-    background-color: #f2f2f2;
-    text-align: center;
-    word-spacing: 30px;
-    letter-spacing: 8px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-transform: capitalize;
+nav {
+    background-color: #f3f3f3;
+}
+
+ul {
+    word-spacing: 20PX;
+    margin-left: 100px;
 
 }
-.home {
-    text-decoration-line: none;
-    color: black;
-    line-height: 40px;
-    font-size: 25px;
-    
-}
-.cataloge {
-    text-decoration-line: none;
-    color: black;
-    font-size: 25px;
+ul li {
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 100PX;
+  
 
 }
-.news {
+ul li a {
     text-decoration-line: none;
-    color: black;
-    font-size: 25px;
+    letter-spacing: 5PX;
+    color: BLACK;
+    display: block;
+}
+ul li a:hover {
+    color: red;
+
 }
